@@ -14,7 +14,7 @@ spec:
     targetRevision: master
   destination:
     name: in-cluster
-    namespace: default
+    namespace: dev
   syncPolicy:
     automated:
       prune: false
